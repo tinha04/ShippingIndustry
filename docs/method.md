@@ -22,7 +22,7 @@ Same method as the Idea Lab, with one change: this repo scores with the YC lens 
 
 | Tier | Meaning |
 |---|---|
-| Lead | Building now |
+| Lead | The company's first product; building after validation gates |
 | Strong candidate | Evidence supports problem, market and a gap; validating with buyers |
 | Exploring | Problem verified; gap or buyer unclear |
 | Backup | Research only; revisit trigger recorded |

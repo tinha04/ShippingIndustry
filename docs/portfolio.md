@@ -2,16 +2,16 @@
 
 [Back to README](../README.md) · [Method](method.md) · [YC review](yc-review.md) · [Landscape](landscape.md) · [Decisions](decisions.md) · [Sources](sources.md)
 
-Three ideas for the layer around ship reactors, one bridge idea that earns at sea now (added 2026-10-07), and one backup, tested after Kairos. Scores follow the YC lens in [method.md](method.md).
+**Lead product (Tin's decision, 2026-10-07): gas detection integrity,** the YC pitch and the bridge to reactor monitoring. Behind it: three ideas for the layer around ship reactors and one backup, tested after Kairos. Scores follow the YC lens in [method.md](method.md).
 
 ## 1. Status
 
 | Idea | YC score (35) | Tier | Verdict | Next step |
 |---|---|---|---|---|
-| [Gas detection integrity](gas-integrity/product-and-tech.md) (bridge) | **23, highest** | Exploring | Improved, not new. Ships need it today; same box and record as reactor monitoring. Portable detector clouds and single brand land tools exist; no maker neutral service for fixed systems at sea found. Problem data date from 2019 to 2020 | 8 ship manager calls; bench with seeded faults |
-| [Port and route readiness](readiness/product-and-tech.md) | **21, rank 1** | Exploring | Improved, not new. Strongest why now; most likely to earn revenue before ships exist. Lloyd's Register consortium, NEMO, IAEA and Core Power cover the work as studies and free guidance; no software product found | Industry contact call, then 10 buyer calls |
-| [Independent reactor monitoring](monitoring/product-and-tech.md) | **20, rank 2** | Exploring | Improved, not new. Best founder fit; demand waits for fueled reactors; makers hold the data | 5 developer calls on read only access; floating plants first |
-| [Insurance for nuclear ships](insurance/product-and-tech.md) | **18, rank 3** | Exploring | Strongest problem, weakest position: no license, capital or ships yet; Northcourt, Markel and Willis, AXA XL and NorthStandard are moving | 6 insurer calls: will anyone pay for risk data now? |
+| [Gas detection integrity](gas-integrity/startup-plan.md) (lead) | **23, highest** | **Lead** | Improved, not new. Ships need it today; same box and record as reactor monitoring. Portable detector clouds and single brand land tools exist; no maker neutral service for fixed systems at sea found. Problem data date from 2019 to 2020 | 8 ship manager calls; bench with seeded faults ([build guide](gas-integrity/build-guide.md)); YC plan in the [startup plan](gas-integrity/startup-plan.md) |
+| [Port and route readiness](readiness/product-and-tech.md) | **21, rank 2** | Exploring | Improved, not new. Strongest why now; most likely to earn revenue before ships exist. Lloyd's Register consortium, NEMO, IAEA and Core Power cover the work as studies and free guidance; no software product found | Industry contact call, then 10 buyer calls |
+| [Independent reactor monitoring](monitoring/product-and-tech.md) | **20, rank 3** | Exploring | Improved, not new. Best founder fit; demand waits for fueled reactors; makers hold the data | 5 developer calls on read only access; floating plants first |
+| [Insurance for nuclear ships](insurance/product-and-tech.md) | **18, rank 4** | Exploring | Strongest problem, weakest position: no license, capital or ships yet; Northcourt, Markel and Willis, AXA XL and NorthStandard are moving | 6 insurer calls: will anyone pay for risk data now? |
 | [Shielding and layout optimizer](shielding/research.md) | 18 | Backup | Research only; yards and makers do it in house | One question in every call |
 
 **Overfitting warning:** 0 interviews. Gaps of 1 to 3 points are within judgment error. The order reflects speed to proof and why now more than size. The bridge leads by 2 points on one research pass.
@@ -28,7 +28,7 @@ flowchart LR
 ```
 
 - **One record, three products:** the port and ship evidence from readiness is what the monitoring box files before each call, and both are what insurers need to price.
-- **The bridge (added 2026-10-07):** gas detection integrity runs on the same box and signed record as reactor monitoring, earns from gas fueled ships and gas carriers now, and builds the track record with class, ports and insurers that nuclear needs later ([niches](monitoring/niches.md)).
+- **The lead and bridge (decided 2026-10-07):** gas detection integrity runs on the same box and signed record as reactor monitoring, earns from gas fueled ships and gas carriers now, and builds the track record with class, ports and insurers that nuclear needs later ([niches](monitoring/niches.md)).
 - **Revenue in order of arrival:** readiness and gas detection sell now, monitoring when floating plants fuel (about 2028), insurance when ships trade (about 2030).
 - **Why one company (H):** each alone is tens of millions a year at most ([readiness](readiness/market.md#5-read-on-venture-scale), [monitoring](monitoring/market.md#5-read-on-venture-scale), [insurance](insurance/market.md#5-read-on-venture-scale)); together they share customers, data and trust. Waiting on Tin ([decisions](decisions.md#2-waiting-on-tin)).
 - **Risk of one company:** three hard things at once with two founders. Mitigation: build only readiness until a kill or promote decision; keep the others in interviews.

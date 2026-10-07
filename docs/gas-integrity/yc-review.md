@@ -1,8 +1,8 @@
 # Gas Detection Integrity: YC Review
 
-[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [All areas](../yc-review.md)
+[Back to README](../../README.md) · [Startup plan](startup-plan.md) · [YC application](yc-application.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Build guide](build-guide.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [All areas](../yc-review.md)
 
-**Highest in this repo. YC lens 23/35 (first round, 2026-10-07).** Ships need it today, it fits our hardware skills, and it proves the record that reactor monitoring needs later. Held back by a mid size market, dated problem data and maker or class gatekeeping. Numbers in brackets are [evidence](evidence.md) rows.
+**Lead product and YC pitch (Tin's decision). YC lens 23/35, the highest in this repo (first round, 2026-10-07).** Draft answers: [YC application](yc-application.md). Ships need it today, it fits our hardware skills, and it proves the record that reactor monitoring needs later. Held back by a mid size market, dated problem data and maker or class gatekeeping. Numbers in brackets are [evidence](evidence.md) rows.
 
 ## 1. YC lens
 

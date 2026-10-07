@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [All areas](../yc-review.md)
 
-**Rank 3 of 3. YC lens 18/35 (first round).** The strongest problem of the three and possibly the largest prize, but the weakest position: no license, no capital, no underwriting team, and no ship to insure before about 2030. Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
+**Rank 4 of 4. YC lens 18/35 (first round).** The strongest problem of the three and possibly the largest prize, but the weakest position: no license, no capital, no underwriting team, and no ship to insure before about 2030. Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
 
 ## 1. YC lens
 

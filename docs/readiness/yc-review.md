@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [All areas](../yc-review.md)
 
-**Rank 1 of 3. YC lens 21/35 (first round).** The strongest why now and the idea most likely to earn revenue before ships exist (projects and ports buy studies today [L5, L6]). Held back by free guidance from incumbents, a small early market and no regulatory expert on the team. Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
+**Rank 2 of 4 (behind the lead product). YC lens 21/35 (first round).** The strongest why now and the idea most likely to earn revenue before ships exist (projects and ports buy studies today [L5, L6]). Held back by free guidance from incumbents, a small early market and no regulatory expert on the team. Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
 
 ## 1. YC lens
 

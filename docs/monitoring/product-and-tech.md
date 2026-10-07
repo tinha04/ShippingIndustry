@@ -2,7 +2,7 @@
 
 [Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [Prepare now](prepare-now.md) · [Niches](niches.md)
 
-**Tier:** Exploring, rank 2. **YC lens:** 20/35 ([portfolio](../portfolio.md)). Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
+**Tier:** Exploring, rank 3. **YC lens:** 20/35 ([portfolio](../portfolio.md)). Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
 
 ## 1. One line
 

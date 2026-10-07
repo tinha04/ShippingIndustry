@@ -8,7 +8,7 @@ Where the monitoring box and signed record can earn money or proof before reacto
 
 | ID | Niche | Problem | Market | Insight | Differentiation | Founder fit | Speed | Why now | Total | Verdict |
 |---|---|---|---|---|---|---|---|---|---|---|
-| N3 | **Gas detection integrity for gas fueled ships and gas carriers** | 4 | 3 | 3 | 3 | 3 | 3 | 4 | **23** | **Bridge and candidate future project** ([full review](../gas-integrity/product-and-tech.md)) |
+| N3 | **Gas detection integrity for gas fueled ships and gas carriers** | 4 | 3 | 3 | 3 | 3 | 3 | 4 | **23** | **Lead product (decided 2026-10-07)** ([startup plan](../gas-integrity/startup-plan.md)) |
 | N6 | Land microreactors under NRC Part 57 | 3 | 4 | 3 | 2 | 3 | 2 | 4 | 21 | Expansion, not focus: different buyers |
 | N2 | Bunkering safety record (sensor data on each fuel delivery) | 3 | 2 | 3 | 2 | 3 | 3 | 4 | 20 | Partner with Ofiniti [G27]; feature of N3 |
 | N8 | Hazardous fuel pre arrival packet through port systems | 3 | 2 | 3 | 3 | 2 | 3 | 4 | 20 | Feature of readiness and N3 [24] |

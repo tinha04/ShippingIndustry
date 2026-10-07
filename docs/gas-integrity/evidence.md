@@ -1,6 +1,6 @@
 # Gas Detection Integrity: Evidence
 
-[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
+[Back to README](../../README.md) · [Startup plan](startup-plan.md) · [YC application](yc-application.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Build guide](build-guide.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
 
 All rows checked October 7, 2026 through web search results. Most problem rows date from 2019 and 2020; look for newer port state control data before quoting them. Tags in [method §3](../method.md#3-evidence-tags).
 
@@ -53,6 +53,17 @@ All rows checked October 7, 2026 through web search results. Most problem rows d
 | # | Claim | Value | Tag | Source |
 |---|---|---|---|---|
 | 30 | YC maritime companies | Maritime Fusion (W25, fusion for ships), Voltic (S22, electric cargo ships), Greywing (W21, ship operations software), Albacore (S25, drone submarines) | V | [YC](https://www.ycombinator.com/companies/industry/Maritime), [Seedtable](https://seedtable.com/companies/maritime-fusion) |
+| 31 | YC 2027 timing | Winter 2027 deadline November 2, 2026 (decisions about December 11); Spring and Summer 2027 deadlines not announced (Spring 2026 was February 9, Summer 2026 was May 4); the application offers early decision for "a batch after Winter 2027" | V (third party guides; check YC's page) | [Roundfunded](https://www.roundfunded.com/en/blogs/yc-application-deadlines-2026-2027), [YC apply](https://ycombinator.com/apply), [YC early decision](https://www.ycombinator.com/early-decision) |
+
+## Bench parts (price snapshots, added 2026-10-07)
+
+| # | Claim | Value | Tag | Source |
+|---|---|---|---|---|
+| 32 | Fixed gas controllers with Modbus | MSA 9010/9020 controller £1,586 including VAT (UK); a used Honeywell Touchpoint Plus listed at about $3,500 on eBay; new Touchpoint Plus Modbus versions are quote only | V (snapshots) | [Frontline Safety](https://www.frontline-safety.co.uk/msa-9010-9020-sil-gas-control-system), [eBay](https://www.ebay.de/itm/333487474095), [Keep Supply](https://www.keepsupply.com/tpplbdwa8s8brnn-honeywell-tppl-controller-basic-wall-mount-dc-powered-8-x-ma-input-with-12-x-relay-output-8-x-ma-output-with-battery-backup-modbus-rtu) |
+| 33 | Ammonia transmitters | Seeed industrial Modbus RS485 NH3 sensor about A$320 (RS485 only); ACI CTS-M5220X about $972 (4 to 20 mA or Modbus); RKI Air Alert NH3 $1,650 (4 to 20 mA and Modbus, 6 to 8 weeks) | V (snapshots) | [Core Electronics](https://core-electronics.com.au/industrial-grade-modbus-rs485-nh3-sensor-with-waterproof-aviation-connector.html.md), [Keep Supply](https://www.keepsupply.com/cts-m5220x-q000000-automation-components-inc-aci-toxic-gas-sensor-room-ammonia-0-50-ppm-default-0-100-ppm-max-4-20ma-2-10vdc-output-or-modbus-rtu-125950), [PK Safety](https://pksafety.com/products/rki-air-alert-transmitter-nh3-w-ac-2-relays) |
+| 34 | Methane transmitters | Renke RS-CH4-N01-2 RS485 Modbus, 0 to 100% LEL, about ₹7,519 (India); unbranded 4 to 20 mA plus RS485 fixed detector about $203 on eBay; Engenuity catalytic Modbus unit $1,795 | V (snapshots; sensing type of the cheap units unknown) | [Robu](https://aws.robu.in/?p=2115449), [eBay](https://www.ebay.com/itm/397192545392), [Engenuity](https://engenuity.com/?p=61383) |
+| 35 | Test gas | 50% LEL methane in air, 34 L, $75 to $325 depending on seller; 25 ppm ammonia in nitrogen, 34 L, from $263 (plus $120 hazmat fee, special order); fixed flow 0.5 L/min regulators $145 to $240; stainless regulator advised for ammonia | V (snapshots) | [All Safe](https://allsafeindustries.com/50-lel-methane-calibration-gas.aspx), [Global Test Supply](https://www.globaltestsupply.com/product/rki-81-0176rk-04-calibration-cylinder), [Forensics Detectors](https://www.forensicsdetectors.com/products/gas-regulator-fixed-flow-0-5lpm-c10), [Ideal Calibrations](https://idealcalibrations.com/0-5-lpm-fixed-flow-c10-regulator/) |
+| 36 | Data box parts | Raspberry Pi 5 8GB about $150 list after a February 2026 price rise, $199 street (July 2026); Waveshare RS485 CAN HAT $13.99; Sequent Industrial Automation HAT (four isolated 4 to 20 mA inputs) $120; Adafruit ATECC608 breakout $4.95 | V (snapshots) | [DEV Community](https://dev.to/revenueclaw/raspberry-pi-5-price-history-how-far-have-prices-come-187h), [Waveshare](https://www.waveshare.com/rs485-can-hat.htm), [RobotShop](https://www.robotshop.com/products/sequent-microsystems-industrial-automation-8-layer-stackable-hat-raspberry-pi), [Adafruit](https://www.adafruit.com/product/4314) |
 
 ## Corrections log
 

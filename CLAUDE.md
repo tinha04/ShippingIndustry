@@ -5,8 +5,8 @@ Read this first in every session. Then read [README.md](README.md) (public page)
 ## 1. Mission
 
 - This repo holds due diligence on startup ideas for the layer around ship reactors, tested after Kairos, Tin's lead startup ([tinha04/Kairos](https://github.com/tinha04/Kairos)). Format and habits mirror the Idea Lab ([tinha04/IdeaLab](https://github.com/tinha04/IdeaLab), private).
-- **Ideas (Tin's decision, 2026-10-07):** port and route readiness (rank 1), independent reactor monitoring (rank 2), insurance for nuclear ships (rank 3); shielding and layout optimizer as backup research.
-- **Bridge idea (added 2026-10-07):** gas detection integrity, proof that ship gas detectors work, YC lens 23 (highest here). Same box and signed record as reactor monitoring; earns from gas fueled ships and gas carriers now. Proposal: make it the first product and the YC pitch, with nuclear as the long term vision ([decisions](docs/decisions.md#2-waiting-on-tin)).
+- **Ideas (Tin's decision, 2026-10-07):** port and route readiness (rank 2), independent reactor monitoring (rank 3), insurance for nuclear ships (rank 4), behind the lead product; shielding and layout optimizer as backup research.
+- **Lead product and YC pitch (Tin's decision, 2026-10-07):** gas detection integrity, "proof that ship gas detectors work", YC lens 23 (highest here). Same box and signed record as reactor monitoring; earns from gas fueled ships and gas carriers now; nuclear is the long term vision. It lives in this repo. Plan: [startup plan](docs/gas-integrity/startup-plan.md); [YC application draft](docs/gas-integrity/yc-application.md); [build guide](docs/gas-integrity/build-guide.md).
 - **Origin:** an industry contact in shipping who works on modular nuclear power for ships. Do not name them or their company in this public repo.
 - **Scope:** readiness, monitoring and risk tools around ship reactors. Never reactor design, fuel handling, weapons or naval propulsion. Monitoring is read only, one way, and never part of reactor control or safety systems.
 
@@ -14,7 +14,7 @@ Read this first in every session. Then read [README.md](README.md) (public page)
 
 | Idea | YC score (35) | Tier | Biggest open question |
 |---|---|---|---|
-| Gas detection integrity (bridge) | 23 | Exploring | Will ship managers pay per ship beyond maintenance logs and the maker's service (GI4)? Are 2019 to 2020 inspection findings still common (GI5)? |
+| Gas detection integrity (lead) | 23 | **Lead** | Will ship managers pay per ship beyond maintenance logs and the maker's service (GI4)? Are 2019 to 2020 inspection findings still common (GI5)? |
 | Port and route readiness | 21 | Exploring | Will ports and owners pay for readiness work now, or wait for free guidance (RD1, RD3)? |
 | Independent reactor monitoring | 20 | Exploring | Will reactor makers share read only data, and will anyone require independent records (MN1, MN2)? |
 | Insurance for nuclear ships | 18 | Exploring | Will an insurer pay for risk data before ships exist; who provides capital (IN1)? |
@@ -24,7 +24,9 @@ Read this first in every session. Then read [README.md](README.md) (public page)
 - **Team:** technical co-founder (hardware, embedded firmware, product) and business co-founder (customers, partners, grants). **Gaps:** nuclear regulation, maritime law, insurance underwriting, class approval for ship equipment.
 - **Timing:** interviews only until after Kairos's YC application on November 2; proposed exception: one call with the industry contact (waiting on Tin).
 - **Branch:** work on `claude/hopeful-goldberg-rbahec`. Do not push elsewhere without permission. No PR unless asked.
-- **Visibility:** this repo is public; proposal to make it private before interview notes go in.
+- **Visibility:** Tin decided to make this repo private (2026-10-07); Claude has no tool for repo settings, so Tin switches it in GitHub (Settings, General, Danger Zone, Change visibility). Until it shows Private, keep contact names and interview notes out.
+- **Entity:** formed when applying (YC or a GAIN voucher, whichever comes first).
+- **YC timing:** this company applies for Spring or Summer 2027 only if the founders are not full time on Kairos ([startup plan §4](docs/gas-integrity/startup-plan.md#4-timing-against-kairos)).
 
 ## 3. Goals
 
@@ -33,7 +35,8 @@ Read this first in every session. Then read [README.md](README.md) (public page)
 | All | Industry contact call | Done, with 3 introductions |
 | Gas detection | Ship manager interviews | 8 ([playbook](docs/playbook.md#6-gas-detection-integrity-8-calls)) |
 | Gas detection | Bench rig | At least 9 of 10 planted faults caught (drift, slow response, dead sensor, wrong test gas); 0 false "healthy" |
-| Gas detection | Decision gate | At least 3 managers would pay $8K per ship a year; a paid pilot makes it the lead product |
+| Gas detection | Decision gate | Stays lead if at least 3 managers would pay $8K per ship a year and the bench passes |
+| Gas detection | YC milestones | November interviews and inspection data; December bench; January pilot LOI and advisor; apply about February or May 2027 ([startup plan §5](docs/gas-integrity/startup-plan.md#5-milestones-to-the-application)) |
 | Readiness | Buyer interviews | 10 ([playbook](docs/playbook.md#3-readiness-10-calls)) |
 | Readiness | Rule map and scorecards | 100+ cited requirements; 3 ports scored; contact agrees with the route view |
 | Readiness | Decision gate | At least 3 buyers would pay |
@@ -59,14 +62,15 @@ Full registers: [readiness](docs/readiness/risks.md), [monitoring](docs/monitori
 
 ## 5. How to continue
 
-1. Prepare and run the industry contact call with [playbook §2](docs/playbook.md#2-first-call-our-industry-contact) once Tin approves. Log answers in the evidence files (tag H).
-2. After November 2: build one data box for both the [gas detection bench](docs/gas-integrity/build-plan.md) and the [monitoring bench](docs/monitoring/build-plan.md); build the readiness rule map and three port scorecards with the [readiness build plan](docs/readiness/build-plan.md).
-3. Get 2024 to 2026 port state control and vetting data on gas detection findings (GI5) before pitching the bridge.
-4. Follow the [monitoring prepare now](docs/monitoring/prepare-now.md) timeline; GAIN needs a legal entity.
-5. Run the interviews; re-score with [docs/method.md](docs/method.md) after every 5 calls; record changes in [docs/decisions.md](docs/decisions.md) and [docs/portfolio.md](docs/portfolio.md) with the last 3 known scores.
-6. Watch: the IMO carbon vote (October 2026), the NRC maritime white paper (Fall 2026), NRC Part 57 final rule (January 2027), NEMO's port and insurability guide (2027), IAEA ATLAS expert groups, the IMO legal committee on a nuclear liability regime, MARAD's next steps after its request for information.
-7. Confirm key search based rows against the original documents before quoting them to customers (see the overfitting warning in [docs/yc-review.md](docs/yc-review.md#5-stress-test-new-or-better-2026-10-07)).
-8. Never delete a risk; close it with evidence. Keep a corrections log in each evidence file.
+1. Work the [startup plan](docs/gas-integrity/startup-plan.md#5-milestones-to-the-application) milestones in order; update the [application draft](docs/gas-integrity/yc-application.md) after each one.
+2. Prepare and run the industry contact call with [playbook §2](docs/playbook.md#2-first-call-our-industry-contact) once Tin approves. Log answers in the evidence files (tag H).
+3. After November 2: build one data box for both the [gas detection bench](docs/gas-integrity/build-plan.md) and the [monitoring bench](docs/monitoring/build-plan.md); build the readiness rule map and three port scorecards with the [readiness build plan](docs/readiness/build-plan.md).
+4. Get 2024 to 2026 port state control and vetting data on gas detection findings (GI5) before applying.
+5. Follow the [monitoring prepare now](docs/monitoring/prepare-now.md) timeline; GAIN needs a legal entity.
+6. Run the interviews; re-score with [docs/method.md](docs/method.md) after every 5 calls; record changes in [docs/decisions.md](docs/decisions.md) and [docs/portfolio.md](docs/portfolio.md) with the last 3 known scores.
+7. Watch: the IMO carbon vote (October 2026), the NRC maritime white paper (Fall 2026), NRC Part 57 final rule (January 2027), NEMO's port and insurability guide (2027), IAEA ATLAS expert groups, the IMO legal committee on a nuclear liability regime, MARAD's next steps after its request for information.
+8. Confirm key search based rows against the original documents before quoting them to customers (see the overfitting warning in [docs/yc-review.md](docs/yc-review.md#5-stress-test-new-or-better-2026-10-07)).
+9. Never delete a risk; close it with evidence. Keep a corrections log in each evidence file.
 
 ## 6. Working conventions (founder preferences)
 
@@ -93,6 +97,7 @@ Full registers: [readiness](docs/readiness/risks.md), [monitoring](docs/monitori
 | `docs/decisions.md` | Decisions in force and proposals waiting on Tin |
 | `docs/sources.md` | All sources by area, generated from the evidence tables |
 | `docs/readiness/`, `docs/monitoring/`, `docs/insurance/`, `docs/gas-integrity/` | `product-and-tech.md`, `market.md`, `competition.md`, `risks.md`, `build-plan.md`, `evidence.md`, `yc-review.md` |
+| `docs/gas-integrity/startup-plan.md`, `yc-application.md`, `build-guide.md` | Lead product: YC path and milestones, draft answers in form order, bench parts with prices and steps |
 | `docs/monitoring/prepare-now.md`, `docs/monitoring/niches.md` | Seven moves before 2030 and a timeline; eight niches scored (gas detection wins) |
 | `docs/shielding/research.md` | Backup idea: problem, evidence, rivals, score, revisit triggers |
 | `tools/` | `gen_sources.py` (rebuilds `docs/sources.md` from evidence links), `check_docs.py` (links, anchors, no em or en dashes) |

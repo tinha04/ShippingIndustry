@@ -8,17 +8,17 @@ Review date 2026-10-07. Each idea was asked the same 40 questions the Idea Lab u
 
 | Rank | Area | YC lens (35) | Verdict |
 |---|---|---|---|
-| **Bridge** | [Gas detection integrity](gas-integrity/yc-review.md) (added 2026-10-07) | **23** | Highest score: ships need it today, it fits our hardware skills, and it proves the record reactor monitoring needs. Weakest points: mid size market alone, problem data from 2019 to 2020, makers and class as gatekeepers |
-| **1** | [Port and route readiness](readiness/yc-review.md) | **21** | Best why now and the most likely to earn revenue before ships exist. Weakest points: free guidance from incumbents, small early market, no regulatory expert on the team |
-| **2** | [Independent reactor monitoring](monitoring/yc-review.md) | **20** | Best founder fit. Weakest points: reactor makers hold the data; no reactor at sea before about 2030 |
-| **3** | [Insurance for nuclear ships](insurance/yc-review.md) | **18** | Strongest problem. Weakest points: no license, capital or underwriting team; incumbents moving; no ships yet |
+| **Lead** | [Gas detection integrity](gas-integrity/yc-review.md) (lead and YC pitch, Tin's decision 2026-10-07) | **23** | Highest score: ships need it today, it fits our hardware skills, and it proves the record reactor monitoring needs. Weakest points: mid size market alone, problem data from 2019 to 2020, makers and class as gatekeepers |
+| **2** | [Port and route readiness](readiness/yc-review.md) | **21** | Best why now and the most likely to earn revenue before ships exist. Weakest points: free guidance from incumbents, small early market, no regulatory expert on the team |
+| **3** | [Independent reactor monitoring](monitoring/yc-review.md) | **20** | Best founder fit. Weakest points: reactor makers hold the data; no reactor at sea before about 2030 |
+| **4** | [Insurance for nuclear ships](insurance/yc-review.md) | **18** | Strongest problem. Weakest points: no license, capital or underwriting team; incumbents moving; no ships yet |
 | Backup | [Shielding and layout optimizer](shielding/research.md) | 18 | Research only |
 
 Criteria and scales: [method §1](method.md#1-scoring-the-yc-lens-1-to-5-each-total-out-of-35). Score cards: [portfolio §3](portfolio.md#3-score-cards-rounds-1-and-2-2026-10-07).
 
 **Readiness first among the nuclear ideas by one point,** which is noise at 0 interviews. It leads because it can show a paying customer within months; monitoring and insurance wait on reactors and law.
 
-**Strongest YC application today (proposal):** the gas detection bridge, pitched as "proof that ship gas detectors work", with reactor monitoring as the long term vision. It has the best speed to proof, founder fit and differentiation of the four, and a customer who can pay this year. The nuclear story makes the vision bigger; the gas product makes it fundable now.
+**The YC application (decided):** the gas detection product, pitched as "proof that ship gas detectors work", with reactor monitoring as the long term vision. Plan and draft answers: [startup plan](gas-integrity/startup-plan.md), [application draft](gas-integrity/yc-application.md). It has the best speed to proof, founder fit and differentiation of the four, and a customer who can pay this year. The nuclear story makes the vision bigger; the gas product makes it fundable now.
 
 **Overfitting warning:** 0 users, 0 revenue, 0 interviews. Every score is judgment; the progress section of the application is empty for all three.
 
@@ -28,6 +28,8 @@ Criteria and scales: [method §1](method.md#1-scoring-the-yc-lens-1-to-5-each-to
 |---|---|---|
 | YC accepts one application per batch | Kairos uses the Winter 2027 slot (November 2). These ideas go under "other ideas" there, or apply alone in a 2027 batch | Idea Lab YC review (V) |
 | YC runs four batches a year | A later 2027 batch is months away | Idea Lab YC review (V) |
+| Spring and Summer 2027 deadlines not announced (Spring 2026 was February 9, Summer 2026 was May 4); early decision for "a batch after Winter 2027" exists | Plan for about February or May 2027; check ycombinator.com/apply | [Gas evidence](gas-integrity/evidence.md) row 31 |
+| YC asks whether all founders work full time (Q10) | If Kairos is accepted, this company cannot also be full time; decide after Kairos's December decision | [Startup plan §4](gas-integrity/startup-plan.md#4-timing-against-kairos) |
 | YC invests $500,000 and admits about 1% to 2% | Without users, any of these is a long shot | Idea Lab YC review (V) |
 | The US push is about shipbuilding and security, not only climate [L2] | Pitch cost, speed and access; the IMO carbon vote this month may fail [L21] | Landscape |
 | Ships arrive 2030 to 2033 at the earliest [L2, L10] | Every area needs revenue that does not wait for ships | Landscape |

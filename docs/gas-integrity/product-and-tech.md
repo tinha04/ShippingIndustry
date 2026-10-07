@@ -1,8 +1,8 @@
 # Gas Detection Integrity: Product and Technology
 
-[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
+[Back to README](../../README.md) · [Startup plan](startup-plan.md) · [YC application](yc-application.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Build guide](build-guide.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
 
-**Tier:** Exploring; bridge for reactor monitoring and candidate future project (added 2026-10-07). **YC lens:** 23/35, the highest in this repo ([portfolio](../portfolio.md)). Numbers in brackets are [evidence](evidence.md) rows; M rows are in [monitoring evidence](../monitoring/evidence.md).
+**Tier:** Lead product and YC pitch (Tin's decision, 2026-10-07); bridge to reactor monitoring. Plan: [startup plan](startup-plan.md). **YC lens:** 23/35, the highest in this repo ([portfolio](../portfolio.md)). Numbers in brackets are [evidence](evidence.md) rows; M rows are in [monitoring evidence](../monitoring/evidence.md).
 
 ## 1. One line
 
@@ -58,4 +58,4 @@ A maker neutral add on that reads a ship's fixed gas detection system, guides an
 - **Monitoring:** same box, same signed record, same buyers (ports, class, insurers). Proves the product at sea years before reactors sail.
 - **Readiness:** detector health is one line in a port's readiness file for new fuels.
 - **Insurance:** an operating record of safety sensors is the data insurers say they lack for new fuels [12].
-- **Idea Lab:** overlaps with the battery fire tag's gas sensing skills, but serves a different buyer (shipowners' fixed systems, not cargo boxes). Where it should live is a decision for Tin.
+- **Idea Lab:** overlaps with the battery fire tag's gas sensing skills, but serves a different buyer (shipowners' fixed systems, not cargo boxes). It lives in this repo (Tin's decision, 2026-10-07).

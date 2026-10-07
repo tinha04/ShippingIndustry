@@ -2,7 +2,7 @@
 
 [Back to README](../README.md) · [Portfolio](portfolio.md) · [Readiness build plan](readiness/build-plan.md) · [Monitoring build plan](monitoring/build-plan.md) · [Insurance build plan](insurance/build-plan.md) · [Gas detection build plan](gas-integrity/build-plan.md)
 
-All ideas stay in validation until after Kairos's YC application (November 2): interviews only, no building. Proposed exception: one call with our industry contact before then ([decisions](decisions.md#2-waiting-on-tin)). **Owner:** the business co-founder runs calls; the technical co-founder takes notes. Log every answer as a row in that idea's `evidence.md` (tag H until several sources agree), then score the call (section 7).
+All ideas stay in validation until after Kairos's YC application (November 2): interviews only, no building. **Call order after November 2:** gas detection (lead, section 6) first, then readiness, monitoring and insurance. Proposed exception: one call with our industry contact before then ([decisions](decisions.md#2-waiting-on-tin)). **Owner:** the business co-founder runs calls; the technical co-founder takes notes. Log every answer as a row in that idea's `evidence.md` (tag H until several sources agree), then score the call (section 7).
 
 ## 1. Interview rules (all ideas)
 
