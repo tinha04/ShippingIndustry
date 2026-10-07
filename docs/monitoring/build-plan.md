@@ -1,6 +1,6 @@
 # Monitoring: Build and Validation Plan
 
-[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
+[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [Prepare now](prepare-now.md) · [Niches](niches.md)
 
 Owner split: the business co-founder runs interviews; the technical co-founder builds the bench box. Validation only until after Kairos's YC application (November 2). A full build guide (parts with checked prices, links and backups, wiring, safety) is not written yet; write it before ordering parts.
 
@@ -13,10 +13,14 @@ Targets, bets, script and call log: [playbook](../playbook.md#4-monitoring-8-cal
 | Step | Work | Pass condition |
 |---|---|---|
 | 1 | **Data model:** list what each reader needs (regulator, port, class society, insurer, IAEA) from NRC proposed Part 57, safeguards papers, Lloyd's Register guidance and the Rotterdam study [1 to 3, 8, L6] | One page per reader, checked in 2 calls |
-| 2 | **Bench data box:** single board computer, radiation sensor, GNSS, hardware signing key, tamper switch, offline storage. Feed it synthetic reactor status data (power, temperatures, flows, alarms) from a simple simulator we write | 7 days offline; every record signed; a verifier on a laptop detects any edited, missing or reordered record |
-| 3 | **One way link and red team:** data enters the box through a one way link only; an outside tester tries to reach the source network through the box | No inbound path found |
+| 1b | **Data dictionary v0:** read only data names for a marine reactor (power, temperatures, flows, radiation, seals, alarms) in the ISO 19848 naming style [17] | 3 developers comment; draft shared with a NEMO working group |
+| 2 | **Bench data box:** single board computer, radiation sensor, GNSS, hardware signing key, tamper switch, offline storage. Feed it synthetic reactor status data (power, temperatures, flows, alarms) from a simple simulator we write, using the v0 data names. Design to class environment and cyber rules (IACS E10, E27) and IEC 62443 practices from day one, without certifying yet [18, 19, 21]. The same box serves the [gas detection bridge](../gas-integrity/build-plan.md) | 7 days offline; every record signed; a verifier on a laptop detects any edited, missing or reordered record |
+| 3 | **One way link and red team:** buy a proven commercial data diode rather than build one [22]; an outside tester tries to reach the source network through the box [23] | No inbound path found |
 | 4 | **Role based views and pre arrival packet:** port, insurer and regulator views of the same record; packet filed in the readiness record (idea 1) | A port contact says the packet answers its pre arrival questions |
 | 5 | **Pilot:** an unfueled floating plant prototype (Bluecore is testing monitoring and sensors on one [L7]) | Box runs alongside their sensors for 30 days |
+| 6 | **Real reactor data:** a GAIN voucher (FY2027) for national lab work on authenticated one way monitoring, or a partnership with a MARVEL or DOME user [26 to 28]. Needs a legal entity | Voucher awarded or a signed partner |
+
+Timing and costs for every step, and the approvals that come after the bench: [prepare now](prepare-now.md).
 
 **Indicative bench parts (E, prices to check before ordering):**
 
@@ -45,3 +49,7 @@ After 8 interviews and step 3: promote to Strong candidate if at least 2 develop
 | 2026-10-07 | Rules allow remote monitoring | **Proposed** | NRC Part 57, final expected January 2027 [1] |
 | 2026-10-07 | Safeguards for moving reactors are solved | **No** | Still being studied [2, 3] |
 | 2026-10-07 | A floating plant developer tests monitoring before fuel | **Yes** | Bluecore's unfueled prototype [L7] |
+| 2026-10-07 | Ship data standards include nuclear data names | **Not found** | ISO 19848 covers machinery; no nuclear names found [17] |
+| 2026-10-07 | One way gateways are accepted in US nuclear plants | **Yes, per vendors and a KNS paper** | NRC RG 5.71 favors hardware one way links [22]; check RG 5.71 directly |
+| 2026-10-07 | We can test on a real reactor before 2030 | **Possible** | GAIN vouchers, MARVEL (late 2027), DOME [26 to 28]; needs an entity |
+| 2026-10-07 | Ammonia ships are a big enough bridge | **No; gas detection across all gas fuels is** | See [niches](niches.md) and [gas detection integrity](../gas-integrity/product-and-tech.md) |

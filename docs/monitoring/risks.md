@@ -1,6 +1,6 @@
 # Monitoring: Risks and Challenges
 
-[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
+[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [Prepare now](prepare-now.md) · [Niches](niches.md)
 
 Likelihood (L) and impact (I) from 1 to 3. Score = L x I. Status: Open, Testing, Closed (with evidence).
 
@@ -18,6 +18,10 @@ Likelihood (L) and impact (I) from 1 to 3. Score = L x I. Status: Open, Testing,
 | MN8 | Founder bandwidth (Kairos first) | 3 | 2 | 6 | Interviews only until after November 2 | Weekly review | Open |
 | MN9 | Export rules on nuclear related data and technology | 2 | 2 | 4 | Public data on the bench; counsel review before handling developer data | Counsel | Open |
 | MN10 | Price per reactor too low for nuclear quality costs | 2 | 2 | 4 | Price against the cost of a port refusal or an insurance premium | Interviews | Open |
+| MN11 | Big players own the data standard (DNV, Kongsberg, class) and our dictionary goes unused | 2 | 2 | 4 | Build on ISO 19848 and contribute through NEMO rather than own it; our edge is the signed independent record [17] | NEMO working group contact | Open (added 2026-10-07) |
+| MN12 | Approvals cost money before revenue (E10, E27, IEC 62443, topical report) | 3 | 2 | 6 | Do IEC 62443-4-1 (process) first; type approvals only after design freeze and a paying pilot; topical report only with a developer partner at the reduced rate [16, 18, 19, 21] | Quotes from one class society and one lab | Open (added 2026-10-07) |
+| MN13 | A data diode is bypassed or misused | 1 | 3 | 3 | Buy a proven diode, add layered defenses, outside red team [22, 23] | Bench step 3 | Open (added 2026-10-07) |
+| MN14 | The gas detection bridge pulls focus from nuclear | 2 | 2 | 4 | Same box and record for both; gas earns revenue and track record now; revisit at each gate ([gas detection integrity](../gas-integrity/product-and-tech.md)) | Gate review | Open (added 2026-10-07) |
 
 ## 2. Kill criteria
 

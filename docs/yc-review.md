@@ -1,6 +1,6 @@
 # YC Review: All Areas
 
-[Back to README](../README.md) · [Portfolio](portfolio.md) · [Readiness](readiness/yc-review.md) · [Monitoring](monitoring/yc-review.md) · [Insurance](insurance/yc-review.md)
+[Back to README](../README.md) · [Portfolio](portfolio.md) · [Gas detection](gas-integrity/yc-review.md) · [Readiness](readiness/yc-review.md) · [Monitoring](monitoring/yc-review.md) · [Insurance](insurance/yc-review.md)
 
 Review date 2026-10-07. Each idea was asked the same 40 questions the Idea Lab uses: the 35 on YC's application form plus the 5 partners ask most in interviews. Where an idea could not answer, we researched it and logged the result in that area's `evidence.md`. Grades: **Strong** (specific, sourced), **OK** (plausible, thin evidence), **Weak** (vague or contradicted), **Missing** (needs work, not research).
 
@@ -8,14 +8,17 @@ Review date 2026-10-07. Each idea was asked the same 40 questions the Idea Lab u
 
 | Rank | Area | YC lens (35) | Verdict |
 |---|---|---|---|
+| **Bridge** | [Gas detection integrity](gas-integrity/yc-review.md) (added 2026-10-07) | **23** | Highest score: ships need it today, it fits our hardware skills, and it proves the record reactor monitoring needs. Weakest points: mid size market alone, problem data from 2019 to 2020, makers and class as gatekeepers |
 | **1** | [Port and route readiness](readiness/yc-review.md) | **21** | Best why now and the most likely to earn revenue before ships exist. Weakest points: free guidance from incumbents, small early market, no regulatory expert on the team |
 | **2** | [Independent reactor monitoring](monitoring/yc-review.md) | **20** | Best founder fit. Weakest points: reactor makers hold the data; no reactor at sea before about 2030 |
 | **3** | [Insurance for nuclear ships](insurance/yc-review.md) | **18** | Strongest problem. Weakest points: no license, capital or underwriting team; incumbents moving; no ships yet |
 | Backup | [Shielding and layout optimizer](shielding/research.md) | 18 | Research only |
 
-Criteria and scales: [method §1](method.md#1-scoring-the-yc-lens-1-to-5-each-total-out-of-35). Score cards: [portfolio §3](portfolio.md#3-score-cards-round-1-2026-10-07).
+Criteria and scales: [method §1](method.md#1-scoring-the-yc-lens-1-to-5-each-total-out-of-35). Score cards: [portfolio §3](portfolio.md#3-score-cards-rounds-1-and-2-2026-10-07).
 
-**Readiness first by one point,** which is noise at 0 interviews. It leads because it can show a paying customer within months; monitoring and insurance wait on reactors and law.
+**Readiness first among the nuclear ideas by one point,** which is noise at 0 interviews. It leads because it can show a paying customer within months; monitoring and insurance wait on reactors and law.
+
+**Strongest YC application today (proposal):** the gas detection bridge, pitched as "proof that ship gas detectors work", with reactor monitoring as the long term vision. It has the best speed to proof, founder fit and differentiation of the four, and a customer who can pay this year. The nuclear story makes the vision bigger; the gas product makes it fundable now.
 
 **Overfitting warning:** 0 users, 0 revenue, 0 interviews. Every score is judgment; the progress section of the application is empty for all three.
 
@@ -80,19 +83,19 @@ Founder questions (1 to 11, 24, 30 to 35) are the same as in the Idea Lab; the f
 
 ## 4. What every area lacks (progress, Q18 to Q22)
 
-No users, revenue, interviews or prototype. The fastest fixes, in order: the industry contact call, 10 interviews with quotes, 2 signed advisors, a rule map and 3 port scorecards, one paid scorecard.
+No users, revenue, interviews or prototype. The fastest fixes, in order: the industry contact call, 8 ship manager interviews for gas detection and 10 for readiness, 2 signed advisors, the gas detection bench with seeded faults, a free ship pilot, then a paid one.
 
 ## 5. Stress test: new, or better? (2026-10-07)
 
-| Question | Readiness | Monitoring | Insurance |
-|---|---|---|---|
-| A pain nobody solves? | **No.** Lloyd's Register consortium, NEMO, IAEA ATLAS, Core Power port studies, class societies, law firms [L5, L6, L14, L17 to L19] | **No.** Reactor makers, Mirion, ABB and Kongsberg, Cydome and Xage, Nuclearn ([evidence](monitoring/evidence.md)) | **No.** Northcourt, Markel and Willis, nuclear pools, AXA XL, NorthStandard ([evidence](insurance/evidence.md)) |
-| Is the pain real? | Yes: port access named as the main barrier [L6]; Otto Hahn's 33 ports [L23] | Yes, ahead of demand: safeguards for moving reactors unsolved ([evidence](monitoring/evidence.md)) | Yes, the strongest: excluded almost everywhere, $50M cap, no treaty ([evidence](insurance/evidence.md)) |
-| Where we can be better | Neutral, repeatable port and route records instead of one off studies | Independent record that foreign ports, insurers and the IAEA trust | Ship and route data; port refusal cover |
-| Sharper wedge (proposal) | Route view for our contact's project, then paid port scorecards | Floating plant prototypes first | Data supplier to incumbents, not an insurer |
-| Lucrative? | $15M to $50M a year alone | $20M to $60M a year at 50 ships and 20 plants | $25M to $100M a year at 50 ships, mostly after a treaty |
-| Verdict | Improved, not new | Improved, not new | Improved, not new; weakest position |
+| Question | Gas detection (bridge) | Readiness | Monitoring | Insurance |
+|---|---|---|---|---|
+| A pain nobody solves? | **No.** Ship makers serve their own systems; portable clouds (iNet, Teledyne, Blackline); single brand remote calibration on land ([evidence](gas-integrity/evidence.md)) | **No.** Lloyd's Register consortium, NEMO, IAEA ATLAS, Core Power port studies, class societies, law firms [L5, L6, L14, L17 to L19] | **No.** Reactor makers, Mirion, ABB and Kongsberg, Cydome and Xage, Nuclearn ([evidence](monitoring/evidence.md)) | **No.** Northcourt, Markel and Willis, nuclear pools, AXA XL, NorthStandard ([evidence](insurance/evidence.md)) |
+| Is the pain real? | Yes, dated: drifting sensors and wrong test gas found by the Coast Guard; gas carriers detained more often ([evidence](gas-integrity/evidence.md)) | Yes: port access named as the main barrier [L6]; Otto Hahn's 33 ports [L23] | Yes, ahead of demand: safeguards for moving reactors unsolved ([evidence](monitoring/evidence.md)) | Yes, the strongest: excluded almost everywhere, $50M cap, no treaty ([evidence](insurance/evidence.md)) |
+| Where we can be better | Maker neutral health and proof for fixed systems at sea | Neutral, repeatable port and route records instead of one off studies | Independent record that foreign ports, insurers and the IAEA trust | Ship and route data; port refusal cover |
+| Sharper wedge (proposal) | Ship managers with mixed makers; catch wrong span gas and drift before the inspector | Route view for our contact's project, then paid port scorecards | Floating plant prototypes first; gas detection as the bridge | Data supplier to incumbents, not an insurer |
+| Lucrative? | $12M to $33M a year at modest adoption; more with tankers and the nuclear step | $15M to $50M a year alone | $20M to $60M a year at 50 ships and 20 plants | $25M to $100M a year at 50 ships, mostly after a treaty |
+| Verdict | Improved, not new; best fundable today | Improved, not new | Improved, not new | Improved, not new; weakest position |
 
-**Combined (proposal):** as one company in three stages, the same record serves all three and the path to $100M+ is clearer than for any one alone ([portfolio §2](portfolio.md#2-how-the-three-ideas-fit-proposal)).
+**Combined (proposal):** as one company, the gas bridge earns and proves the record now, and readiness, monitoring and insurance build on the same record; the path to $100M+ is clearer than for any one alone ([portfolio §2](portfolio.md#2-how-the-three-ideas-fit-proposal)).
 
 **Overfitting warning:** most rows rest on search summaries because several sites block direct reading; confirm the key ones against the original before quoting them.

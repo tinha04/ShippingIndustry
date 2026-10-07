@@ -9,6 +9,7 @@ groups = [
     ("Port and route readiness", "docs/readiness/evidence.md"),
     ("Independent reactor monitoring", "docs/monitoring/evidence.md"),
     ("Insurance for nuclear ships", "docs/insurance/evidence.md"),
+    ("Gas detection integrity (bridge)", "docs/gas-integrity/evidence.md"),
     ("Shielding and layout optimizer (backup)", "docs/shielding/research.md"),
 ]
 link = re.compile(r'\[([^\]]+)\]\((https?://[^()\s]+(?:\([^)]*\))?[^()\s]*)\)')

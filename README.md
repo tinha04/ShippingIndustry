@@ -1,9 +1,10 @@
 # Nuclear Shipping Lab
 
-**Three product ideas for the layer around ship reactors, tested after our lead startup, [Kairos](https://github.com/tinha04/Kairos): port and route readiness for nuclear ships, independent reactor monitoring, and insurance for nuclear ships. One backup idea stays in research.**
+**Three product ideas for the layer around ship reactors, tested after our lead startup, [Kairos](https://github.com/tinha04/Kairos): port and route readiness for nuclear ships, independent reactor monitoring, and insurance for nuclear ships. Plus a bridge idea that ships need today, proof that ship gas detectors work, and one backup idea in research.**
 
 | Rank | Idea | YC score | Verdict | Next step |
 |---|---|---|---|---|
+| Bridge | **Proof that ship gas detectors work** (new) | 23/35 | Improved, not new. Highest score: ships running on gas fuels need it now, it uses the same box and record as reactor monitoring, and it fits our hardware skills. Each detector maker serves only its own systems | 8 ship manager calls: would you pay per ship for drift warnings and an inspector ready record? |
 | 1 | **Port and route readiness for nuclear ships** | 21/35 | Improved, not new. Strongest why now and the most likely to earn revenue before ships exist. A UK consortium led by Lloyd's Register, the industry group NEMO, the UN nuclear agency and Core Power already do this as studies and free guidance | Call our industry contact, then 10 buyer calls: will ports and owners pay for readiness work now? |
 | 2 | **Independent monitoring for ship reactors** | 20/35 | Improved, not new. Best fit with our hardware skills, but no reactor runs at sea before about 2030 and reactor makers hold the data | 5 reactor developer calls: will they share read only data? Start with floating power plants |
 | 3 | **Insurance for nuclear ships** | 18/35 | Strongest problem, weakest position. Specialist nuclear insurers are moving in; we have no license, no capacity and no ships to insure yet | 6 insurer calls: will anyone pay for risk data before ships exist? |
@@ -14,13 +15,16 @@
 - **What we build:** readiness, monitoring and risk tools around ship reactors. Never reactor design, fuel handling, weapons or naval propulsion. Monitoring is read only and never touches reactor control.
 - **Where we stand:** research done and stress tested against outside sources (October 2026); one industry contact who works on modular nuclear power for ships; 0 interviews, 0 users, 0 revenue. Interviews start after Kairos's YC application on November 2.
 - **What the research found:** none of the three opens a new category; each improves on work others already do. Our case rests on being neutral across reactor makers and reusing one record for ports, regulators and insurers ([stress test](docs/yc-review.md#5-stress-test-new-or-better-2026-10-07)).
-- **Structure:** the three ideas can be one company in three stages: readiness now, monitoring when reactors run, insurance once there is data (proposal, [decisions](docs/decisions.md)). It would be separate from Kairos.
+- **Structure:** the ideas can be one company in stages: gas detector proof and readiness now, monitoring when reactors run, insurance once there is data (proposal, [decisions](docs/decisions.md)). It would be separate from Kairos.
+- **Strongest YC pitch today (proposal):** proof that ship gas detectors work, with reactor monitoring as the long term vision.
 
 ```mermaid
 flowchart LR
+    G["BRIDGE, NOW<br/>Gas detector proof<br/>Earns at sea, same box"]
     A["STAGE 1, NOW<br/>Port and route readiness<br/>Sells studies and scorecards"]
     B["STAGE 2, FROM ABOUT 2028<br/>Independent monitoring<br/>Floating plants first, then ships"]
     C["STAGE 3, FROM ABOUT 2030<br/>Insurance<br/>Risk data first, then cover"]
+    G -- "same box and signed record" --> B
     A -- "port and ship evidence" --> B
     B -- "operating record" --> C
     A -- "readiness scores" --> C
@@ -158,7 +162,7 @@ Read only, one way data. Never part of reactor control or safety systems.
 
 ### How we can succeed
 
-1. **Start on floating power plants:** they come before ships. Bluecore is testing monitoring and sensors on an unfueled prototype at the Port of Long Beach.
+1. **Start on floating power plants:** they come before ships. Bluecore is testing monitoring and sensors on an unfueled prototype at the Port of Long Beach. Meanwhile, prove the same box at sea with gas detectors (the bridge idea below) and prepare approvals and a shared data standard early ([prepare now](docs/monitoring/prepare-now.md)).
 2. **Prove it on the bench first:** a data box that signs and stores 7 days of simulated reactor data offline, with a real radiation sensor.
 3. **Pair it with readiness:** the pre arrival packet lives in the port's readiness file (idea 1).
 4. **Charge per reactor per year (the bet we are testing)** once reactors are fueled.
@@ -261,6 +265,84 @@ flowchart LR
 
 ---
 
+## Bridge: Proof that ship gas detectors work
+
+### What we do
+
+```mermaid
+flowchart LR
+    P["THE PROBLEM<br/>Ships on gas fuels rely on<br/>fixed gas detectors<br/>Sensors drift, tests go wrong<br/>Inspectors find it first"]
+    S["OUR ADD ON<br/>Reads any maker's panel<br/>Guides and checks each test<br/>Spots drift between tests"]
+    O["THE OUTCOME<br/>Fewer findings and delays<br/>Less crew time on tests<br/>A record inspectors accept"]
+    W["WHY US<br/>Works across makers<br/>Same box as reactor monitoring<br/>Gas sensing and hardware skills"]
+    P --> S --> O
+    W -.-> S
+```
+
+### The problem
+
+- **Inspectors keep finding the same faults:** on three LNG carriers in Boston, the US Coast Guard found gas sensors reading outside the maker's limits, failed calibrations and the wrong test gas. Cargo work was delayed, and such faults can mean detention. A large insurer of shipowners warned its members about the "alarming trends".
+- **Gas carriers get detained more:** one US Coast Guard sector detained 5% of gas carriers it examined, against a 1.5% national average.
+- **The record counts as much as the sensor:** inspectors treat an undocumented calibration as no calibration.
+- **The fleet is growing fast:** about 1,100 ships can run on LNG, methanol or ammonia today and about 1,000 more are on order. The first ammonia ships arrived in 2026, and ammonia alarms start at 25 parts per million because it is toxic.
+
+### Our solution
+
+1. **Reads any maker's panel:** a small box reads the gas detection system's existing outputs. Read only, in a safe area, never changing alarms.
+2. **Guides each monthly test:** an app walks the officer through every sensor and checks the test gas before it is used, catching the exact mistake the Coast Guard found.
+3. **Spots drift between tests:** it tracks each sensor and compares similar sensors across the fleet, warning before a sensor fails.
+4. **Keeps a signed record:** a tamper evident log of every test, with a one click report for inspectors, class and vetting, sent to the ship's maintenance system.
+5. **Grows into nuclear:** the same box and record later serve radiation monitors and reactor monitoring.
+
+Advisory only. The maker's system stays the approved safety system.
+
+### Competitors
+
+| Company | What they do | Pain point they solve | Pain point we solve | Different? |
+|---|---|---|---|---|
+| **Ship gas detection makers** (Consilium, Autronica, Dräger, Hanla IMS) | Fixed systems and service for their own equipment | Detect gas, meet class rules | One view and record across all makers; drift between services | **Partly.** Biggest threat if they add cloud health |
+| **Industrial Scientific, Teledyne, Blackline, MSA** | Cloud records and automatic tests for portable detectors (about 475,000 on Industrial Scientific's alone) | Portable detector upkeep | Fixed systems built into the ship | **Yes for fixed.** Teledyne is closest at sea |
+| **Martek Marine** | Portable detector with a tamperproof calibration certificate; test gas supply | Portable proof at sea | Fixed systems; drift between tests | **Partly.** Possible channel |
+| **MSA, General Monitors, SMC** | Remote calibration of fixed detectors on land, each for its own brand | Less walking to sensors | Any maker, at sea, plus the record | **Partly** |
+| **Ofiniti** (DNV spinout, $9M raised) | Digital records for each fuel delivery, including ammonia | Fuel paperwork | Safety sensor health | **Yes.** Partner |
+
+### Why us
+
+- **Works across makers:** ship managers run several makers' systems; each maker only sees its own.
+- **Catches known mistakes before the inspector:** wrong test gas and out of range readings are checked at test time.
+- **Same box as reactor monitoring:** signed records, offline first, read only; it proves our product at sea years before reactors sail.
+- **Team:** hardware, embedded firmware and gas sensing work from our Idea Lab.
+- **Weak spot:** the problem evidence dates from 2019 and 2020; makers or class could gatekeep the data; no shipping network beyond our contact.
+
+### How we can succeed
+
+1. **Start with ship managers that run several makers' systems,** with a free 3 month pilot on one ship.
+2. **Prove it on the bench first:** at least 9 of 10 planted faults caught, including the wrong test gas.
+3. **Charge per ship per year (the bet we are testing),** priced against delays, detentions and crew time.
+4. **Partner:** fuel delivery records (Ofiniti) and test gas supply (Martek).
+5. **Grow:** tankers and chemical carriers, then radiation monitors and reactor monitoring.
+
+**We stop if:** fewer than 3 of 8 ship managers would pay $8,000 per ship a year, class requires a new approval taking over 12 months, or makers block access to most panels.
+
+### Market
+
+- **First customers:** managers of gas carriers and LNG fueled ships, then methanol and ammonia ship owners.
+- **Size:** about $12M to $33M a year at modest adoption (estimate); more with tankers and the nuclear step.
+- **Why now:** alternative fuel ship orders up 53% in 2026, the first ammonia ships and refueling trials, and fuel records going digital in Singapore and Rotterdam.
+- **Caution:** the price per ship is a guess, some fleet counts are not verified, and newer inspection data may show the problem is smaller than in 2020.
+
+### Status
+
+| Stage | Status |
+|---|---|
+| Research and competitor analysis | Done, October 2026 ([full review](docs/gas-integrity/product-and-tech.md)) |
+| Bench rig with planted faults | Steps and indicative parts ready ([build plan](docs/gas-integrity/build-plan.md)); build starts after November 2 |
+| Ship manager interviews | 0 of 8 |
+
+**Biggest open question:** will ship managers pay per ship for proof and drift warnings, beyond their maintenance logs and the maker's service?
+
+---
+
 ## Backup: Shielding and layout optimizer (research only)
 
 Software to cut the weight of a ship reactor's radiation shield and find the best place for it on the hull, so ships lose less cargo space. Korean studies put an optimized shield at about 10,500 tonnes, while removing fuel tanks frees only about 5% more container space. Rivals: reactor makers' and shipyards' own teams, ship design software (NAPA, Cadmatic), free radiation codes (OpenMC, MCNP), and AI simulation firms (PhysicsX, $300M raised in June 2026). Kept to grow if a shipyard or reactor maker says shielding is a bottleneck they would pay to fix ([research](docs/shielding/research.md)).
@@ -270,6 +352,6 @@ Software to cut the weight of a ship reactor's radiation shield and find the bes
 - **Technical co-founder:** hardware, embedded firmware, product.
 - **Business co-founder:** customers, partners, grants and fundraising.
 - **Industry contact:** works on modular nuclear power for ships; first design partner (to confirm).
-- **Gaps:** nuclear regulation, maritime law, insurance underwriting.
+- **Gaps:** nuclear regulation, maritime law, insurance underwriting, class approval for ship equipment.
 
-<sub>Internal working docs (portfolio and scores, YC review, call playbook, method, decisions, sources, market landscape, and per idea: product, market, competition, risks, build plan, YC review, evidence) are in [/docs](docs/). Session handoff: [CLAUDE.md](CLAUDE.md).</sub>
+<sub>Internal working docs (portfolio and scores, YC review, call playbook, method, decisions, sources, market landscape, the monitoring prepare now plan and niches, and per idea: product, market, competition, risks, build plan, YC review, evidence) are in [/docs](docs/). Session handoff: [CLAUDE.md](CLAUDE.md).</sub>

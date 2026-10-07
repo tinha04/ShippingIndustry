@@ -1,8 +1,8 @@
 # Customer Discovery Playbook
 
-[Back to README](../README.md) · [Portfolio](portfolio.md) · [Readiness build plan](readiness/build-plan.md) · [Monitoring build plan](monitoring/build-plan.md) · [Insurance build plan](insurance/build-plan.md)
+[Back to README](../README.md) · [Portfolio](portfolio.md) · [Readiness build plan](readiness/build-plan.md) · [Monitoring build plan](monitoring/build-plan.md) · [Insurance build plan](insurance/build-plan.md) · [Gas detection build plan](gas-integrity/build-plan.md)
 
-All ideas stay in validation until after Kairos's YC application (November 2): interviews only, no building. Proposed exception: one call with our industry contact before then ([decisions](decisions.md#2-waiting-on-tin)). **Owner:** the business co-founder runs calls; the technical co-founder takes notes. Log every answer as a row in that idea's `evidence.md` (tag H until several sources agree), then score the call (section 6).
+All ideas stay in validation until after Kairos's YC application (November 2): interviews only, no building. Proposed exception: one call with our industry contact before then ([decisions](decisions.md#2-waiting-on-tin)). **Owner:** the business co-founder runs calls; the technical co-founder takes notes. Log every answer as a row in that idea's `evidence.md` (tag H until several sources agree), then score the call (section 7).
 
 ## 1. Interview rules (all ideas)
 
@@ -27,6 +27,7 @@ All ideas stay in validation until after Kairos's YC application (November 2): i
 | K6 | What data will ports, regulators or insurers ask from you, and who will hold it? | Monitoring |
 | K7 | How much space and weight does shielding take in your design? Is that a problem you would pay to reduce? | Shielding (backup) |
 | K8 | Would you test a free rule map and port scorecard for your route? Who else should we talk to? | Readiness; intros |
+| K9 | Does your company run gas fueled ships or gas carriers today? Who manages gas detection tests and records, and has an inspector ever flagged them? | Gas detection integrity |
 
 ## 3. Readiness (10 calls)
 
@@ -86,6 +87,8 @@ All ideas stay in validation until after Kairos's YC application (November 2): i
 - **M3.** Has a port, insurer or regulator asked for data you don't want to give them directly?
 - **M4.** What quality and cyber standard would a read only box outside your safety systems need?
 - **M5.** What would you pay per reactor a year for a record ports and insurers accept?
+- **M6.** (Added 2026-10-07) Which data points would you expose read only, and what names do you use for them today?
+- **M7.** Would you co-author an open data dictionary for marine reactors through NEMO ([prepare now](monitoring/prepare-now.md))?
 
 ## 5. Insurance (6 calls)
 
@@ -113,7 +116,39 @@ All ideas stay in validation until after Kairos's YC application (November 2): i
 - **I3.** What does a refused or delayed port call cost an owner? Would anyone insure it?
 - **I4.** Would you provide capacity for a narrow cover designed with a data partner?
 
-## 6. Scoring a call
+## 6. Gas detection integrity (8 calls)
+
+Added 2026-10-07 as the bridge for reactor monitoring ([full review](gas-integrity/product-and-tech.md)).
+
+**What every call must answer**
+
+| Bet | Confirmed if they say | Killed if | Ask |
+|---|---|---|---|
+| **Pain:** tests, drift and records cause findings, delays or crew time | A recent finding, delay or detention, or hours per month on tests | Never flagged and tests take little time (GI4) | G1, G2 |
+| **Who pays** (GI4, biggest risk) | A price per ship a year | Fewer than 3 of 8 would pay $8K per ship (kill 1) | G5 |
+| **Mixed makers** (GI1) | Their fleet runs systems from 2 or more makers | One maker everywhere with a service deal they like | G3 |
+| **Data access** (GI3) | Panels have Modbus or analog outputs they would let us read | Makers or class block it (kills 2 and 3) | G4, C2 |
+
+**Who to call**
+
+| Target | Count | Main question |
+|---|---|---|
+| Technical superintendents at ship managers running gas carriers or LNG fueled ships | 3 | G1, G3, G5 |
+| Owners of methanol or ammonia fueled ships (for example the first ammonia ship operators) | 1 | G2, G5 |
+| Port state control or vetting inspector (current or former) | 1 | G1: how often is gas detection cited today? |
+| Class society machinery or automation surveyor | 1 | C2 |
+| Gas detection maker or service company | 1 | G4 |
+| Bunkering platform or test gas supplier (Ofiniti, Martek) | 1 | Partnership |
+
+**Script**
+- **G1.** When was gas detection last raised in an inspection or vetting? What happened next?
+- **G2.** Walk me through a monthly gas detection test. Who does it, how long does it take, where is it recorded?
+- **G3.** Which makers' gas detection systems run across your fleet?
+- **G4.** Does your panel send readings to the ship's alarm system? Over what output?
+- **G5.** What would you pay per ship a year for drift warnings and an inspector ready record?
+- **C2.** (Class) Would a read only connection to a gas panel's existing output need new approval?
+
+## 7. Scoring a call
 
 | Score | Meaning |
 |---|---|
@@ -124,7 +159,7 @@ All ideas stay in validation until after Kairos's YC application (November 2): i
 
 Re-score the idea after every 5 calls ([method §4](method.md#4-update-rules)).
 
-## 7. Call log
+## 8. Call log
 
 | Date | Idea | Who (role, not name) | Score | Key quote | Next step |
 |---|---|---|---|---|---|

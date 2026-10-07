@@ -1,0 +1,59 @@
+# Gas Detection Integrity: Evidence
+
+[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md)
+
+All rows checked October 7, 2026 through web search results. Most problem rows date from 2019 and 2020; look for newer port state control data before quoting them. Tags in [method §3](../method.md#3-evidence-tags).
+
+## Problem
+
+| # | Claim | Value | Tag | Source |
+|---|---|---|---|---|
+| 1 | US Coast Guard Safety Alert 02-20 (February 2020) | Three LNG carriers examined in Boston: several fixed flammable gas sensors read outside the maker's tolerance and the follow up calibration checks failed; crews had not followed their own procedures. Causes: drifting sensors and the wrong span gas (inert balanced gas on catalytic sensors, which need oxygen). Results: deficiencies and delayed cargo work; out of tolerance sensors can justify delayed departure, delayed cargo work or detention | V | [USCG](https://www.dco.uscg.mil/Portals/9/DCO%20Documents/5p/CG-5PC/INV/Alerts/USCGSA_0220.pdf) |
+| 2 | UK P&I Club circular 1177 (February 2020) | "Alarming trends found on fixed gas detection systems", relaying the Coast Guard alert to members | V | [UK P&I](https://ukpandi.com/news-and-resources/articles/2020/1177-0220-alarming-trends-found-on-fixed-gas-detection-systems) |
+| 3 | Flag state warning (2019) | Detectors out of calibration, crews unable to calibrate on board, wrong span gases; these avoidable issues led to Coast Guard detentions | V | [International Registries](https://www.register-iri.com/wp-content/uploads/MSA-2019-06.pdf) |
+| 4 | Detention rate for gas carriers | One Coast Guard sector reported a 5% detention ratio on liquefied gas carrier exams against a 1.5% national average (2018) | V (one sector; confirm the exact source page) | [Marine Log](https://www.marinelog.com/news/five-things-that-get-gas-carriers-detained/) |
+| 5 | Fixed detection misses releases (offshore, not ships) | 48.5% of recorded UK offshore gas releases from 1992 to 2015 apparently not detected (Hilditch and McNay); about 60% effective detection of major releases in HSE's 2001 to 2008 data | V (offshore) | [Paper](https://elib.spbstu.ru/dl/2/k19-26.pdf/download), [HSE](https://www.hse.gov.uk/offshore/strategy/fgdetect.htm) |
+| 6 | Systems left unchecked | A gas detection maker says ship systems have been installed and never checked again, "rendering them effectively useless" | VC | [Ammonia Energy Association](https://ammoniaenergy.org/articles/ammonia-gas-detection-technology-landscape-marine-fuel-applications-and-must-knows-from-existing-experts) |
+| 7 | Inspection practice | Fixed systems tested monthly and calibrated at least every 6 months (some class societies say quarterly); an undocumented calibration is treated as no calibration | V (service company guide, secondary) | [Lavastica](https://www.lavastica.com/knowledgebase/how-often-must-onboard-gas-detection-systems-be-tested-and-calibrated/) |
+| 8 | Vetting checks | Fixed, combustible and toxic gas detectors are among instruments a tanker must calibrate or demonstrate; missing calibration gas is a common shortfall | V | [Skuld](https://www.skuld.com/topics/cargo/liquid-bulk/guidance-for-a-successful-vetting-inspection-onboard-a-tanker/) |
+| 9 | Ammonia alarm levels | IMO interim guidelines (MSC.1/Circ.1687): detection at 25 ppm in enclosed spaces, 110 ppm in the secondary enclosure, 220 ppm for alarms and shutdowns (as reported; confirm against the final text) | V | [engine.online](https://engine.online/news/mepc-82-tiny-ammonia-gas-leaks-should-trigger-alarms-on-ships-class-societies-5fe8), [Ammonia Energy Association](https://ammoniaenergy.org/articles/imo-approves-interim-fuel-guidelines) |
+| 10 | Ammonia harm | Toxicity dominates ammonia bunkering risk; an ammonia leak on an LPG tanker off Malaysia killed one crew member and critically injured three (2021) | V | [Baird Maritime](https://www.bairdmaritime.com/shipping/tankers/gas/one-crewman-dead-three-critically-injured-from-ammonia-exposure-on-lpg-tanker-off-malaysia), [Strathclyde](https://pureportal.strath.ac.uk/en/publications/establishing-safety-zones-for-ammonia-bunkering-operations-a-quan/) |
+| 11 | Detection gap for new fuels | Current marine systems lack robust, validated early leak detection in confined spaces (research listing) | V (1 source) | [University of Tasmania](https://www.utas.edu.au/research/degrees/available-projects?id=12099) |
+| 12 | Insurers and ammonia | Ammonia sits outside the Bunker Convention, so there may be no liability cap; P&I pricing for new fuels is a "work in progress"; UK P&I published an ammonia bunkering guide in March 2026 | V | [Ship & Bunker](https://shipandbunker.com/news/emea/896885-ammonia-a-challenge-for-insurers-says-lawyer), [S&P Global](https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/090622-maritime-insurance-premium-claims-norms-to-change-on-energy-transition-sources) |
+
+## Market
+
+| # | Claim | Value | Tag | Source |
+|---|---|---|---|---|
+| 13 | LNG capable ships | 942 in operation, 705 on order to 2033 (DNV, August 2026) | V | [Ship & Bunker](https://shipandbunker.com/news/world/576427-august-reports-highest-alternative-fuelled-vessel-orders-since-october-2024-dnv) |
+| 14 | Methanol and ethanol capable ships | 159 in operation, 293 on order to 2030 (DNV, August 2026) | V | [Ship & Bunker](https://shipandbunker.com/news/world/576427-august-reports-highest-alternative-fuelled-vessel-orders-since-october-2024-dnv) |
+| 15 | Ammonia capable ships | 5 in operation, 41 on order to 2030; 4 orders in the first half of 2026, none in August or September | V | [Argus](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2847293-alternative-fuel-vessel-orders-fall-in-1h-2026-dnv), [Ship & Bunker](https://shipandbunker.com/news/world/819012-alternative-capable-vessel-orders-hit-69-in-september-dnv) |
+| 16 | Alternative fuel orders | 311 through September 2026, up 53%; LNG 200 of them | V | [Ship & Bunker](https://shipandbunker.com/news/world/819012-alternative-capable-vessel-orders-hit-69-in-september-dnv) |
+| 17 | LNG carriers | About 715 to 745 active; about 296 under construction | V | [Riviera](https://www.rivieramm.com/opinion/the-size-of-the-prize-86482), [Shipfinex](https://www.shipfinex.com/blog/top-lng-carrier-operators) |
+| 18 | First ammonia ships | Exmar's Antwerpen, first ocean going ammonia fueled ship (June 2026); a Japanese ammonia fueled gas carrier due November 2026 | V | [DieselNet](https://dieselnet.com/news/2026/06wingd.php), [S&P Global](https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/012524-japans-nyk-partners-sign-contracts-for-worlds-first-ammonia-fueled-medium-gas-carrier) |
+| 19 | Ammonia refueling starts | Singapore authorized ITOCHU's ammonia bunkering trials (permit April 27, 2026, two years; supply ship due September 2027); Hamburg finished a ship to ship ammonia safety concept (July 2026) | V | [ITOCHU](https://www.itochu.co.jp/en/news/news/2026/260520.html), [Maritime Executive](https://maritime-executive.com/article/singapore-issues-first-authorization-for-ammonia-bunkering-trials) |
+| 20 | Safety zones | Singapore study (January 2026) recommends a 547 m safety zone for ship to ship ammonia transfer | V | [Manifold Times](https://www.manifoldtimes.com/news/gcmd-releases-report-on-operational-risk-assessment-for-sts-ammonia-transfer-in-singapore/) |
+| 21 | Fuel data is going digital | Singapore made electronic bunker delivery notes the default from April 1, 2025; Amsterdam Rotterdam Antwerp bunker barges over 300 GT need mass flow meters from 2026 | V | [Britannia P&I](https://britanniapandi.com/wp-content/uploads/2025/01/Electronic-Bunker-Delivery-Notes-eBDNs-in-Singapore-2.pdf), [Smart Maritime Network](https://smartmaritimenetwork.com/2026/03/18/ofiniti-raises-6-8m-to-scale-digital-bunkering-platform/) |
+
+## Competitors
+
+| # | Claim | Value | Tag | Source |
+|---|---|---|---|---|
+| 22 | Industrial Scientific iNet | Subscription gas detection for portable fleets: docks run bump tests and calibrations automatically; about 475,000 detectors connected; no marine deployment found | VC | [Industrial Scientific](https://www.indsci.com/inet-solutions) |
+| 23 | Other portable fleet clouds | Blackline G7 (direct to cloud); MSA Safety io (pay per use); Teledyne GDCloud with marine docking stations and remote diagnostics, works with ShipSurveyor; WatchGas SST Dock | VC | [Blackline](https://www.blacklinesafety.com/en-gb/gas-detection), [Teledyne marine](https://www.teledynegasandflamedetection.com/en-us/marine-shipping), [Fire & Safety Journal](https://fireandsafetyjournalamericas.com/teledyne-gdcloud-enhances-gas-safety-with-connected-detection-tools/) |
+| 24 | Martek Marine | Marine 4 portable detector with a station that prints a tamperproof calibration certificate the maker says class, oil majors and port state control accept (2013); Fastcalgas calibration gas supply | VC | [Maritime Executive](https://maritime-executive.com/corporate/New-Gas-Detector-from-Martek-Provides-Onboard-Tamperproof-Calibration-2013-04-19) |
+| 25 | Remote calibration of fixed detectors (land) | MSA CalGard (works only with MSA X5000 and S5000 sensors); General Monitors remote calibrator triggered over HART or Modbus; SMC Sentry remote calibration. Each sits inside one maker's products | VC | [MSA](https://fr.msasafety.com/p/000070001800003133), [Automation.com](https://www.automation.com/article/general-monitors-releases-remote-calibrator-for-ir), [ISHN](https://ishn.com/articles/87630-a-paradigm-shift-in-maintenance) |
+| 26 | Ship fixed gas detection makers | Consilium (ammonia brochure 2026), Autronica, Dräger, Hanla IMS, CTI; Auramarine's ammonia fuel system includes gas and leak detection | VC | [Consilium](https://www.consiliumsafety.com/en/ammonia-as-fuel/), [Autronica](https://product.autronicafire.com/products/special-detection/), [Auramarine](https://shipandbunker.com/news/world/777753-auramarine-launches-ammonia-fuel-system-for-ships) |
+| 27 | Ofiniti (DNV spinout) | Digital bunkering platform (FuelBoss) covering LNG, methanol and ammonia; $6.8M round in March 2026, $9M total; 25,000+ bunker operations in 2025; claims about 40% of Singapore's digital bunkering | V; share VC | [DNV](https://www.dnv.com/news/2026/dnvventures-ofiniti-fundraising/), [Ship & Bunker](https://shipandbunker.com/news/world/351581-ofiniti-digital-platform-used-in-more-than-25000-bunker-operations-in-2025) |
+| 28 | Danelec | Voyage data recorder maker (the ship's "black box"): new recorder in September 2025, remote health checks and data extraction in November 2025 | V | [Danelec](https://www.danelec.com/newsroom/danelec-launches-next-generation-voyage-data-recorder-for-improved-safety-compliance-and-connectivity) |
+| 29 | Maker neutral health and proof service for fixed gas detection on ships | None found | V (absence in search, not proof) | Search, October 7, 2026 |
+
+## YC context
+
+| # | Claim | Value | Tag | Source |
+|---|---|---|---|---|
+| 30 | YC maritime companies | Maritime Fusion (W25, fusion for ships), Voltic (S22, electric cargo ships), Greywing (W21, ship operations software), Albacore (S25, drone submarines) | V | [YC](https://www.ycombinator.com/companies/industry/Maritime), [Seedtable](https://seedtable.com/companies/maritime-fusion) |
+
+## Corrections log
+
+None yet.

@@ -1,6 +1,6 @@
 # Monitoring: YC Review
 
-[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [All areas](../yc-review.md)
+[Back to README](../../README.md) · [Product](product-and-tech.md) · [Market](market.md) · [Competition](competition.md) · [Risks](risks.md) · [Build plan](build-plan.md) · [Evidence](evidence.md) · [YC review](yc-review.md) · [Prepare now](prepare-now.md) · [Niches](niches.md) · [All areas](../yc-review.md)
 
 **Rank 2 of 3. YC lens 20/35 (first round).** Best founder fit of the three (hardware and embedded firmware), but demand starts only when reactors are fueled, and reactor makers hold the data. Numbers in brackets are [evidence](evidence.md) rows; L rows are in [landscape.md](../landscape.md).
 
